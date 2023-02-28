@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS mytable (
     college VARCHAR(200),
     courses VARCHAR(200) NOT NULL
 );
+
 INSERT INTO majors.mytable(major,credits,college,courses)
 VALUES
 ('Computer Science','420','Grainger College of Engineering','alot'),
