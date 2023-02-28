@@ -7,4 +7,4 @@ def get_articles():
     return jsonify({"Hello" : "World"})
 
 if __name__ == "__main__":
-    app.run(deubg = True)
+    app.run(debug = True)
